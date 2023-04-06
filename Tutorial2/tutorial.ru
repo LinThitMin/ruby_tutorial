@@ -1,1 +1,1 @@
-puts "initial commit"
+puts "initial comit"
