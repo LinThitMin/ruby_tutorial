@@ -2,10 +2,10 @@ require 'date'
 
 print "Enter your birthdate (YYYY-MM-DD): "
 
-birthdate_str = gets.chomp
-birthdate = Date.parse(birthdate_str)
+birthdate = gets.chomp
+date = Date.parse(birthdate)
 
-days = (Date.today - birthdate).to_i
+days = (Date.today - date).to_i
 years = days / 365
 
 if years < 19
